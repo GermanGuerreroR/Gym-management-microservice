@@ -9,7 +9,7 @@
 
 - Germán Guerrero
 
-- Heidy Florez
+- Heidy Vera
 
 - Laura Zuluaga
 
@@ -37,11 +37,15 @@ El repostiorio contiene:
 
 <li> Usamos Railway para alojar nuestra base de datos</li>
 
-<li>[Evidencia de base de datos desplegada en Railway](https://youtu.be/Ihmav33wPaM)   </li>
-
 <li> Se empleo variables de entorno con el NPM de dotenv </li>
 
 </ul>
+
+
+## Evidencia en video de la base de datos desplegada en Railway
+
+- [Evidencia de base de datos desplegada en Railway](https://youtu.be/Ihmav33wPaM)
+
 
 ## Diagrmas
 
