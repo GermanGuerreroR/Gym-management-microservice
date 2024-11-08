@@ -1,0 +1,291 @@
+{
+	"info": {
+		"_postman_id": "2ba19832-ebf7-4af0-8b21-c2239204ce4a",
+		"name": "gym_application",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29381806",
+		"_collection_link": "https://galactic-trinity-615236.postman.co/workspace/SpotifyApi~56515d35-dffc-4282-9f99-497f5e18848c/collection/29381806-2ba19832-ebf7-4af0-8b21-c2239204ce4a?action=share&source=collection_link&creator=29381806"
+	},
+	"item": [
+		{
+			"name": "coach",
+			"item": [
+				{
+					"name": "getCoaches",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/v1/get/coach",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"v1",
+								"get",
+								"coach"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getCoach",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/v1/get/coach/id",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"v1",
+								"get",
+								"coach",
+								"id"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "createCoach",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/v1/post/coach/id",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"v1",
+								"post",
+								"coach",
+								"id"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "updateCoach",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/v1/put/coach/id",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"v1",
+								"put",
+								"coach",
+								"id"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "patchCoach",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/v1/patch/coach/id",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"v1",
+								"patch",
+								"coach",
+								"id"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "deleteCoach",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/v1/delete/coach/id",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"v1",
+								"delete",
+								"coach",
+								"id"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "apprentice",
+			"item": [
+				{
+					"name": "getApprentices",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/v1/get/apprentice",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"v1",
+								"get",
+								"apprentice"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getApprentice",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/v1/get/apprentice/id",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"v1",
+								"get",
+								"apprentice",
+								"id"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "postApprentice",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/v1/post/apprentice",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"v1",
+								"post",
+								"apprentice"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "updateApprentice",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/v1/put/apprentice",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"v1",
+								"put",
+								"apprentice"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "patchApprentice",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/v1/patch/apprentice",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"v1",
+								"patch",
+								"apprentice"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "deleteApprentice",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/v1/delete/apprentice",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"v1",
+								"delete",
+								"apprentice"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

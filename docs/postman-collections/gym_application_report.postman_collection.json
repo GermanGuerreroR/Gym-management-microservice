@@ -1,0 +1,201 @@
+{
+	"info": {
+		"_postman_id": "b9cc7b73-467c-4ab6-90a0-e4659011b3e2",
+		"name": "gym_application_report",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29381806",
+		"_collection_link": "https://galactic-trinity-615236.postman.co/workspace/SpotifyApi~56515d35-dffc-4282-9f99-497f5e18848c/collection/29381806-b9cc7b73-467c-4ab6-90a0-e4659011b3e2?action=share&source=collection_link&creator=29381806"
+	},
+	"item": [
+		{
+			"name": "report",
+			"item": [
+				{
+					"name": "getRreports",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/v1/get/reports",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"v1",
+								"get",
+								"reports"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getReport",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/v1/get/report/id",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"v1",
+								"get",
+								"report",
+								"id"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "training_activity",
+			"item": [
+				{
+					"name": "getTraining-activities",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/v1/get/training-activities",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"v1",
+								"get",
+								"training-activities"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getTraining-activity",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/v1/get/training-activity/id",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"v1",
+								"get",
+								"training-activity",
+								"id"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "postTraining-activity",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/v1/post/training-activity",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"v1",
+								"post",
+								"training-activity"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "putTraining-activity",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/v1/put/training-activity/id",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"v1",
+								"put",
+								"training-activity",
+								"id"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "patchTraining-activity",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/v1/patch/training-activity",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"v1",
+								"patch",
+								"training-activity"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "deleteTraining-activity",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/v1/delete/training-activity/id",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"v1",
+								"delete",
+								"training-activity",
+								"id"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
